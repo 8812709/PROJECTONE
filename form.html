@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>USER DATA</legend>
+        <label for="name">Enter UserName</label>
+        <input type="text" id="name" placeholder="enter your name here">
+        <br>
+        <br>
+        <label for="password">Enter Password</label>
+        <input type="password" id="password" placeholder="enter your password here">
+        <br>
+        <br>
+        <label for="datepick">Select your date of birth</label>
+        <input type="date" id="datepick">
+        <br>
+        <br>
+        <label for="ling">Enter Your Gender</label>
+        <select name="Gender" id="ling">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="others">Others</option>
+        </select>
+        <br>
+        <br>
+        <!-- the name attribute is same for all the elements which implies that it belongs to the same group and cannot have more than one value -->
+        <label for="caste">What is your caste:</label>
+        <label for="obc">OBC</label>
+        <input type="radio" id="obc" name="oneopt">
+        <label for="tribe">ST/SC</label>
+        <input type="radio" id="tribe" name="oneopt">
+        <label for="others">Others</label>
+        <input type="radio" id="others" name="oneopt">
+        <label for="genral">General</label>
+        <input type="radio" id="genral" name="oneopt">
+        <br>
+        <br>
+        </fieldset>
+        <fieldset>
+            <legend>APPLICATION</legend>
+        <label for="admission">Do u want to enrol in the school</label>
+        <label for="optyes">Yes</label>
+        <input type="checkbox" name="yes" id="optyes">
+        <label for="optno">No</label>
+        <input type="checkbox" name="no" id="optno">
+        <br>
+        <br>
+        <label for="text1">Enter some paragraph about your self</label>
+        <textarea name="textarea1" id="text1" rows="5" cols="100" placeholder="Enter text here"></textarea>
+        <br>
+        <br>
+        <input type="submit" value="Submit it">
+        <br>
+        <br>
+        <label for="doc">Upload your Addhar Card</label>
+        <input type="file" name="adharcard" id="doc">
+        <br>
+        <br>
+        <!-- creating image as a button -->
+         <label for="asehi">Select this image to submit</label>
+        <input type="image" name="screenshot" id="asehi" src="Screenshot (29).png" height="20px" width="20px">
+        <br>
+        <br>
+        <button>ACCEPT</button>
+        </fieldset>
+    </form>
+    
+</body>
+</html>

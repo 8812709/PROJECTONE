@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1><b>Complex form</b></h1>
+    <fieldset>
+        <legend>Personal information</legend>
+        <label for="name">Name</label>
+        <input type="text" id="name">
+        <label for="emails">Email</label>
+        <input type="email" id="emails">
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone">
+        <br>
+        <br>
+        <label for="dob">Date of Birth</label>
+        <input type="date" id="dob">
+        <label for="gender">Gender:</label>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="anyone">
+        <label for="female">FeMale</label>
+        <input type="radio" id="female" name="anyone">
+        <label for="others">Others</label>
+        <input type="radio" id="others" name="anyone">
+        <br>
+        <br>
+        <label for="country">Country</label>
+        <select name="country" id="country">
+            <option value="">--select any option below--</option>
+            <option value="india">India</option>
+            <option value="america">America</option>
+            <option value="switerland">Swizerland</option>
+            <option value="others">Others</option>
+        </select>
+    </fieldset>
+    <fieldset>
+        <legend>Address</legend>
+        <br>
+        <label for="addstreet">Address street</label>
+        <input type="text" id="addstreet">
+        <label for="city">City</label>
+        <input type="text" id="city">
+        <label for="state">State</label>
+        <input type="text" id="state">
+        <br>
+        <br>
+        <label for="Zipcode">Zip code</label>
+        <input type="tel" id="Zipcode">
+        <br>
+    </fieldset>
+    <fieldset>
+        <legend>Other information</legend>
+        <label for="textarea">Comment</label>
+        <textarea name="text1" id="textarea" rows="4" cols="50"></textarea>
+        <br>
+        <br>
+        <label for="box">I agree to the terms of service</label>
+        <input type="checkbox" id="box">
+    </fieldset>
+    <br>
+    <br>
+    <button>Submit</button>
+</body>
+</html>
